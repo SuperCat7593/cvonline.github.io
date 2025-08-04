@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.cv-gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.cv-item {
+  width: 200px;
+  cursor: pointer;
+}
+
+.cv-item img {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  transition: 0.3s;
+}
+
+.cv-item:hover img {
+  transform: scale(1.05);
+}

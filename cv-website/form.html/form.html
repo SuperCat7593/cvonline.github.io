@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <title>Form Tạo CV</title>
+  <link rel="stylesheet" href="style-form.css" />
+</head>
+<body>
+  <h1>Tạo CV cá nhân</h1>
+  <form id="cvForm">
+    <label>Họ và tên:</label>
+    <input type="text" name="name" required />
+
+    <label>Email:</label>
+    <input type="email" name="email" required />
+
+    <label>Điện thoại:</label>
+    <input type="text" name="phone" required />
+
+    <label>Kỹ năng:</label>
+    <textarea name="skills" placeholder="Ngăn cách bằng dấu phẩy: HTML, CSS, Giao tiếp..."></textarea>
+
+    <label>Kinh nghiệm:</label>
+    <textarea name="experience"></textarea>
+
+    <label>Học vấn:</label>
+    <textarea name="education"></textarea>
+
+    <button type="submit">Tạo CV</button>
+  </form>
+
+  <script src="form.js"></script>
+</body>
+</html>
